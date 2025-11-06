@@ -218,19 +218,14 @@ All plots are saved as `.png` files and numeric results (per-run metrics) are sa
 
 - The `data/` folder contains *ready-to-use* CSVs (smaller, preprocessed variants) stored via **Git LFS**. The raw PCAP archives are not required for AE reproduction.  
 - If cloning manually, run `git lfs pull` after cloning to fetch the large files.  
-- Scripts automatically detect CUDA/GPU; if absent they fall back to CPU.
+- Scripts automatically detect CUDA/GPU; if absent, they fall back to CPU.
+- The results might vary based on CPU and GPU, with a negligible margin from actual results.
 
 ---
 
 # Contact / citation
 
 If you use this artifact in your work, cite the PANDORA paper (see `Pandora_NDSS2026.pdf` in repo). For issues or questions, open an issue on the repository or contact the authors (see paper header). This README and reproduction instructions were prepared from the artifact's AE documentation (AE.docx).
-
----
-
-# License
-
-See the repository `LICENSE` file for licensing details. If no license file is present, contact the authors before reusing code or data.
 
 ---
 
